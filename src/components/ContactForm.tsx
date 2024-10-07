@@ -31,9 +31,9 @@ export const ContactForm: React.FC = () => {
                 Contactez-nous
             </motion.h2>
 
-            <div className="flex flex-col md:flex-row justify-around items-center space-y-8 md:space-y-0">
+            <div className="flex flex-col md:flex-row justify-around items-center space-y-4 md:space-y-0">
                 {/* Formulaire à gauche */}
-                <form onSubmit={handleSubmit} className="md:w-1/2 bg-white shadow-lg rounded-lg p-8">
+                <form onSubmit={handleSubmit} className="md:w-1/2 bg-white shadow-lg rounded-3xl p-8">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                         {/* Prénom et Nom */}
                         <motion.div

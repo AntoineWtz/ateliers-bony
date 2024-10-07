@@ -1,10 +1,24 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import historyPic from '../assets/img/history.png';
+import Slider from 'react-slick';
+import historyPic1 from '../assets/img/history/history1.png';
+import historyPic2 from '../assets/img/history/history2.png';
+import historyPic3 from '../assets/img/history/history3.png';
 
 export const HistorySection: React.FC = () => {
+    // Configuration du slider
+    const settings = {
+        dots: false,
+        infinite: true,
+        speed: 500,
+        autoplay: true,
+        autoplaySpeed: 2500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+    };
+
     return (
-        <div className="container mx-auto py-12 flex flex-col text-center">
+        <div className="container mx-auto py-12 text-center">
             {/* Titre */}
             <motion.h2
                 className="text-4xl font-bold font-serif tracking-wider m-12 text-primary text-center"
@@ -15,23 +29,48 @@ export const HistorySection: React.FC = () => {
                 Notre Histoire
             </motion.h2>
 
-            {/* Conteneur des colonnes */}
-            <div className="flex flex-col md:flex-row items-center">
-                {/* Colonne gauche : Image */}
-                <motion.div
-                    className="md:w-1/2 p-4 flex justify-center"
-                    initial={{ opacity: 0, x: -50 }}
-                    animate={{ opacity: 1, x: 0 }}
-                    transition={{ duration: 0.5 }}
-                >
-                    <img src={historyPic} alt="Notre Histoire" className="w-full h-auto rounded-lg shadow-lg" />
-                </motion.div>
+            <div className="flex flex-col md:flex-row justify-center items-center px-2">
+                {/* Carousel */}
+                <div className="w-full md:w-1/2">
+                    <Slider {...settings}>
+                        <div>
+                            <motion.img
+                                src={historyPic1}
+                                alt="Notre Histoire 1"
+                                className="w-full h-96 object-cover rounded-3xl"
+                                initial={{ opacity: 0 }}
+                                animate={{ opacity: 1 }}
+                                transition={{ duration: 0.5 }}
+                            />
+                        </div>
+                        <div>
+                            <motion.img
+                                src={historyPic2}
+                                alt="Notre Histoire 2"
+                                className="w-full h-96 object-cover rounded-3xl"
+                                initial={{ opacity: 0 }}
+                                animate={{ opacity: 1 }}
+                                transition={{ duration: 0.5 }}
+                            />
+                        </div>
+                        <div>
+                            <motion.img
+                                src={historyPic3}
+                                alt="Notre Histoire 3"
+                                className="w-full h-96 object-cover rounded-3xl"
+                                initial={{ opacity: 0 }}
+                                animate={{ opacity: 1 }}
+                                transition={{ duration: 0.5 }}
+                            />
+                        </div>
+                    </Slider>
+                </div>
 
-                {/* Colonne droite : Texte */}
+                {/* Texte descriptif */}
                 <motion.div
-                    className="md:w-1/2 p-4 flex flex-col justify-center"
-                    initial={{ opacity: 0, x: 50 }}
-                    animate={{ opacity: 1, x: 0 }}
+                    className="w-full md:w-1/2 p-4 mt-8 md:mt-0"
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5, delay: 0.2 }}
                 >
                     <p className="text-lg tracking-wide text-justify">
