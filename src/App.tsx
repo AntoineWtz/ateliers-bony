@@ -1,14 +1,15 @@
-import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { Home } from "./pages/Home";
 import { Contact } from "./pages/Contact";
 import { Services } from "./pages/Services";
 import { Projects } from "./pages/Projects";
 import { History } from "./pages/History";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/services" element={<Services />} />
