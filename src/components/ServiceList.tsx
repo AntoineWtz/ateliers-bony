@@ -48,7 +48,7 @@ export const ServiceList: React.FC = () => {
                     <motion.img
                         src={service1}
                         alt="Conception sur mesure"
-                        className="w-full md:w-1/2 object-cover rounded-3xl opacity-90"
+                        className="w-full md:w-1/2 object-cover rounded-3xl opacity-90 shadow-lg"
                         initial="hidden"
                         whileInView="visible"
                         viewport={{ once: true }}
@@ -74,7 +74,7 @@ export const ServiceList: React.FC = () => {
                     <motion.img
                         src={service2}
                         alt="Réalisation de meubles"
-                        className="w-full md:w-1/2 object-cover rounded-3xl opacity-90"
+                        className="w-full md:w-1/2 object-cover rounded-3xl opacity-90 shadow-lg"
                         initial="hidden"
                         whileInView="visible"
                         viewport={{ once: true }}
@@ -100,7 +100,7 @@ export const ServiceList: React.FC = () => {
                     <motion.img
                         src={service3}
                         alt="Rénovation et restauration"
-                        className="w-full md:w-1/2 object-cover rounded-3xl opacity-90"
+                        className="w-full md:w-1/2 object-cover rounded-3xl opacity-90 shadow-lg"
                         initial="hidden"
                         whileInView="visible"
                         viewport={{ once: true }}
@@ -126,7 +126,7 @@ export const ServiceList: React.FC = () => {
                     <motion.img
                         src={service4}
                         alt="Scénographie"
-                        className="w-full md:w-1/2 object-cover rounded-3xl opacity-90"
+                        className="w-full md:w-1/2 object-cover rounded-3xl opacity-90 shadow-lg"
                         initial="hidden"
                         whileInView="visible"
                         viewport={{ once: true }}

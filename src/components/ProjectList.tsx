@@ -62,7 +62,7 @@ export const ProjectList: React.FC<ProjectListProps> = ({ limit = projects.lengt
             >
                 Nos Réalisations
             </motion.h2>
-            <div className="flex flex-wrap justify-center align-center gap-8">
+            <div className="flex flex-wrap justify-evenly align-center gap-8">
                 {projects.slice(0, limit).map((project, index) => (
                     <motion.div
                         key={project.title}
