@@ -10,8 +10,8 @@ export const VideoBackground: React.FC = () => {
                 loop
                 muted
             >
-                <source src="/assets/video/bony-teaser.mp4" type="video/mp4" />
-                <source src="/assets/video/bony-teaser.webm" type="video/webm" />
+                <source src={`${process.env.PUBLIC_URL}/assets/video/bony-teaser.mp4`} type="video/mp4" />
+                <source src={`${process.env.PUBLIC_URL}/assets/video/bony-teaser.webm`} type="video/webm" />
                 Your browser does not support the video tag.
             </video>
             <div className="absolute inset-0 bg-black opacity-35"></div>
