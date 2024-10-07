@@ -31,7 +31,7 @@ export const HistorySection: React.FC = () => {
 
             <div className="flex flex-col md:flex-row justify-center items-center px-2">
                 {/* Carousel */}
-                <div className="w-full md:w-1/2">
+                <div className="w-full md:w-1/2 overflow-hidden rounded-3xl">
                     <Slider {...settings}>
                         <div>
                             <motion.img
