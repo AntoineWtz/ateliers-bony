@@ -23,7 +23,7 @@ export const ContactForm: React.FC = () => {
     return (
         <div className="container mx-auto py-12">
             <motion.h2
-                className="text-4xl font-bold font-serif tracking-wider m-12 text-primary text-center"
+                className="text-4xl font-bold font-serif tracking-wider m-8 text-primary text-center"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ duration: 0.5 }}

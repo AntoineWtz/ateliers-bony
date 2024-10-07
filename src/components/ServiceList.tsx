@@ -33,7 +33,7 @@ export const ServiceList: React.FC = () => {
     return (
         <div className="container mx-auto py-12">
             <motion.h2
-                className="text-4xl font-bold font-serif tracking-wider m-12 text-primary text-center"
+                className="text-4xl font-bold font-serif tracking-wider m-8 text-primary text-center"
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 viewport={{ once: true }}
