@@ -32,10 +32,8 @@ export const ContactForm: React.FC = () => {
             </motion.h2>
 
             <div className="flex flex-col md:flex-row justify-around items-center space-y-4 md:space-y-0">
-                {/* Formulaire à gauche */}
                 <form onSubmit={handleSubmit} className="md:w-1/2 bg-white shadow-lg rounded-3xl p-8">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                        {/* Prénom et Nom */}
                         <motion.div
                             className="mb-4"
                             initial={{ opacity: 0 }}
@@ -68,8 +66,6 @@ export const ContactForm: React.FC = () => {
                                 className="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md"
                             />
                         </motion.div>
-
-                        {/* Téléphone et Email */}
                         <motion.div
                             className="mb-4"
                             initial={{ opacity: 0 }}
@@ -103,8 +99,6 @@ export const ContactForm: React.FC = () => {
                             />
                         </motion.div>
                     </div>
-
-                    {/* Champ message */}
                     <motion.div
                         className="mb-4"
                         initial={{ opacity: 0 }}
@@ -121,8 +115,6 @@ export const ContactForm: React.FC = () => {
                             className="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md resize-none"
                         ></textarea>
                     </motion.div>
-
-                    {/* Bouton */}
                     <motion.button
                         type="submit"
                         className="w-full bg-primary text-white py-2 rounded-md"
@@ -132,8 +124,6 @@ export const ContactForm: React.FC = () => {
                         Envoyer
                     </motion.button>
                 </form>
-
-                {/* Colonne à droite : logo, coordonnées et horaires */}
                 <div className="md:w-1/2 flex flex-col items-center">
                     <motion.img
                         src={logo}

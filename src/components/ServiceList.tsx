@@ -11,7 +11,6 @@ import service3 from '../assets/img/services/service3.png';
 import service4 from '../assets/img/services/service4.png';
 
 export const ServiceList: React.FC = () => {
-    // Variants for animation with bounce effect
     const textVariants = {
         hidden: { opacity: 0, x: -100 },
         visible: {
@@ -43,7 +42,6 @@ export const ServiceList: React.FC = () => {
             </motion.h2>
 
             <div className="space-y-12">
-                {/* Service 1 - Conception sur mesure */}
                 <div className="flex flex-col md:flex-row items-center mx-4">
                     <motion.img
                         src={service1}
@@ -68,8 +66,6 @@ export const ServiceList: React.FC = () => {
                         </div>
                     </motion.div>
                 </div>
-
-                {/* Service 2 - Réalisation de meubles */}
                 <div className="flex flex-col md:flex-row-reverse items-center mx-4">
                     <motion.img
                         src={service2}
@@ -94,8 +90,6 @@ export const ServiceList: React.FC = () => {
                         </div>
                     </motion.div>
                 </div>
-
-                {/* Service 3 - Rénovation et restauration */}
                 <div className="flex flex-col md:flex-row items-center mx-4">
                     <motion.img
                         src={service3}
@@ -120,8 +114,6 @@ export const ServiceList: React.FC = () => {
                         </div>
                     </motion.div>
                 </div>
-
-                {/* Service 4 - Scénographie */}
                 <div className="flex flex-col md:flex-row-reverse items-center mx-4">
                     <motion.img
                         src={service4}
