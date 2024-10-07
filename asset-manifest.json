@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/ateliers-bony/static/css/main.0fb8bee9.css",
+    "main.js": "/ateliers-bony/static/js/main.5680513d.js",
+    "static/js/453.9127dc67.chunk.js": "/ateliers-bony/static/js/453.9127dc67.chunk.js",
+    "static/media/project-3.png": "/ateliers-bony/static/media/project-3.120d6e145a5aa69c9af9.png",
+    "static/media/project-2.png": "/ateliers-bony/static/media/project-2.cf61a785c71711b039e2.png",
+    "static/media/project-7.png": "/ateliers-bony/static/media/project-7.e71d61bf44821930de51.png",
+    "static/media/project-1.png": "/ateliers-bony/static/media/project-1.f82162a46b06f8386fa2.png",
+    "static/media/history3.png": "/ateliers-bony/static/media/history3.37c46d1296022c360b9e.png",
+    "static/media/service1.png": "/ateliers-bony/static/media/service1.fd96964aa20c1b1f2bbd.png",
+    "static/media/project-4.png": "/ateliers-bony/static/media/project-4.e7f2b5a78f6e0a387de4.png",
+    "static/media/project-5.png": "/ateliers-bony/static/media/project-5.60ea343cafa1cb44705d.png",
+    "static/media/project-6.png": "/ateliers-bony/static/media/project-6.9142c4089e2b7cd2afba.png",
+    "static/media/service4.png": "/ateliers-bony/static/media/service4.478eaa85489b29fe7796.png",
+    "static/media/service3.png": "/ateliers-bony/static/media/service3.eb0428668ce0653e7502.png",
+    "static/media/service2.png": "/ateliers-bony/static/media/service2.4a20104bfb0ecc24a891.png",
+    "static/media/history1.png": "/ateliers-bony/static/media/history1.a4d322bd445d37e2405d.png",
+    "static/media/history2.png": "/ateliers-bony/static/media/history2.f12ef4554fc073d55400.png",
+    "static/media/bony-logo.png": "/ateliers-bony/static/media/bony-logo.d8b6462d0ffc1f30804a.png",
+    "static/media/slick.svg": "/ateliers-bony/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/ateliers-bony/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/ateliers-bony/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/ateliers-bony/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/ateliers-bony/index.html",
+    "main.0fb8bee9.css.map": "/ateliers-bony/static/css/main.0fb8bee9.css.map",
+    "main.5680513d.js.map": "/ateliers-bony/static/js/main.5680513d.js.map",
+    "453.9127dc67.chunk.js.map": "/ateliers-bony/static/js/453.9127dc67.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0fb8bee9.css",
+    "static/js/main.5680513d.js"
+  ]
+}
