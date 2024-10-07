@@ -15,8 +15,6 @@ export const VideoBackground: React.FC = () => {
                 Your browser does not support the video tag.
             </video>
             <div className="absolute inset-0 bg-black opacity-35"></div>
-
-            {/* Bloc contenant les deux titres */}
             <div className="absolute inset-0 flex flex-col items-center justify-center space-y-4">
                 <motion.h1
                     className="text-white text-6xl font-serif text-center"

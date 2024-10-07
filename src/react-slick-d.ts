@@ -1,4 +1,3 @@
-// src/react-slick-d.ts
 import * as React from 'react';
 
 declare module 'react-slick' {
@@ -10,9 +9,7 @@ declare module 'react-slick' {
         autoplaySpeed?: number;
         slidesToShow?: number;
         slidesToScroll?: number;
-        // Ajoutez d'autres paramètres selon vos besoins
     }
 
-    // Déclarez la classe Slider
     export class Slider extends React.Component<Settings> { }
 }

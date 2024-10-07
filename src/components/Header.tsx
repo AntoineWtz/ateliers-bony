@@ -29,8 +29,6 @@ export const Header: React.FC = () => {
                     </button>
                 </div>
             </div>
-
-            {/* Menu Hamburger */}
             <motion.div
                 className={`absolute top-30 left-0 w-full bg-primary shadow-lg md:hidden z-50 ${isOpen ? 'block' : 'hidden'}`}
                 initial={{ opacity: 0, y: -20 }}
