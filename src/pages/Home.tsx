@@ -11,7 +11,7 @@ export const Home: React.FC = () => {
         <Layout>
             <VideoBackground />
             <ServiceList />
-            <ProjectList />
+            <ProjectList limit={3} />
             <HistorySection />
             <ContactForm />
         </Layout>

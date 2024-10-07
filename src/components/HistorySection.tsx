@@ -6,7 +6,6 @@ import historyPic2 from '../assets/img/history/history2.png';
 import historyPic3 from '../assets/img/history/history3.png';
 
 export const HistorySection: React.FC = () => {
-    // Configuration du slider
     const settings = {
         dots: false,
         infinite: true,
@@ -19,9 +18,8 @@ export const HistorySection: React.FC = () => {
 
     return (
         <div className="container mx-auto py-12 text-center">
-            {/* Titre */}
             <motion.h2
-                className="text-4xl font-bold font-serif tracking-wider m-12 text-primary text-center"
+                className="text-4xl font-bold font-serif tracking-wider m-8 text-primary text-center"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ duration: 0.5 }}
@@ -30,7 +28,6 @@ export const HistorySection: React.FC = () => {
             </motion.h2>
 
             <div className="flex flex-col md:flex-row justify-center items-center px-2">
-                {/* Carousel */}
                 <div className="w-full md:w-1/2 overflow-hidden rounded-3xl">
                     <Slider {...settings}>
                         <div>
@@ -66,7 +63,6 @@ export const HistorySection: React.FC = () => {
                     </Slider>
                 </div>
 
-                {/* Texte descriptif */}
                 <motion.div
                     className="w-full md:w-1/2 p-4 mt-8 md:mt-0"
                     initial={{ opacity: 0, y: 20 }}
