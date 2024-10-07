@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { FaBars, FaTimes } from 'react-icons/fa'; // Importer les icônes
+import { FaBars, FaTimes } from 'react-icons/fa'; 
 import logo from '../assets/img/bony-logo.png';
 
 export const Header: React.FC = () => {
@@ -12,7 +12,7 @@ export const Header: React.FC = () => {
     };
 
     return (
-        <header className="bg-primary text-accent py-4 shadow-lg">
+        <header className="bg-primary text-white py-4 shadow-lg">
             <div className="container mx-auto flex justify-between items-center px-12">
                 <Link to="/" className="flex items-center">
                     <img src={logo} alt="Ateliers Bony Logo" className="h-24 w-auto" />

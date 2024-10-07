@@ -19,7 +19,7 @@ export const VideoBackground: React.FC = () => {
             {/* Bloc contenant les deux titres */}
             <div className="absolute inset-0 flex flex-col items-center justify-center space-y-4">
                 <motion.h1
-                    className="text-primary text-6xl font-serif"
+                    className="text-white text-6xl font-serif"
                     initial={{ opacity: 0, y: -50 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8 }}
