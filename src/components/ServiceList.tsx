@@ -44,7 +44,7 @@ export const ServiceList: React.FC = () => {
 
             <div className="space-y-12">
                 {/* Service 1 - Conception sur mesure */}
-                <div className="flex flex-col md:flex-row items-center">
+                <div className="flex flex-col md:flex-row items-center mx-4">
                     <motion.img
                         src={service1}
                         alt="Conception sur mesure"
@@ -55,7 +55,7 @@ export const ServiceList: React.FC = () => {
                         variants={imageVariants}
                     />
                     <motion.div
-                        className="relative md:-ml-12 p-4 bg-accent shadow-lg rounded-lg flex items-center z-10 opacity-90"
+                        className="relative md:-ml-12 p-4 bg-accent shadow-lg rounded-lg flex items-center z-10 opacity-90 mx-4 my-4 md:my-0"
                         initial="hidden"
                         whileInView="visible"
                         viewport={{ once: true }}
@@ -63,14 +63,14 @@ export const ServiceList: React.FC = () => {
                     >
                         <img src={handSaw} alt="Conception sur mesure" className="h-10 w-10 mr-4" />
                         <div>
-                            <h3 className="text-2xl font-semibold text-primary">Conception sur mesure</h3>
-                            <p className="text-lg">Des designs uniques, pensés selon vos besoins.</p>
+                            <h3 className="text-xl text-center md:text-2xl font-semibold text-primary">Conception sur mesure</h3>
+                            <p className="text-base md:text-lg">Des designs uniques, pensés selon vos besoins.</p>
                         </div>
                     </motion.div>
                 </div>
 
                 {/* Service 2 - Réalisation de meubles */}
-                <div className="flex flex-col md:flex-row-reverse items-center">
+                <div className="flex flex-col md:flex-row-reverse items-center mx-4">
                     <motion.img
                         src={service2}
                         alt="Réalisation de meubles"
@@ -81,7 +81,7 @@ export const ServiceList: React.FC = () => {
                         variants={imageVariants}
                     />
                     <motion.div
-                        className="relative md:-mr-12 p-4 bg-accent shadow-lg rounded-lg flex items-center z-10 opacity-90"
+                        className="relative md:-mr-12 p-4 bg-accent shadow-lg rounded-lg flex items-center z-10 opacity-90 mx-4 my-4 md:my-0"
                         initial="hidden"
                         whileInView="visible"
                         viewport={{ once: true }}
@@ -89,14 +89,14 @@ export const ServiceList: React.FC = () => {
                     >
                         <img src={sawMachine} alt="Réalisation de meubles" className="h-10 w-10 mr-4" />
                         <div>
-                            <h3 className="text-2xl font-semibold text-primary">Réalisation de meubles</h3>
-                            <p className="text-lg">Création de meubles d’exception alliant modernité et tradition.</p>
+                            <h3 className="text-xl text-center md:text-2xl font-semibold text-primary">Réalisation de meubles</h3>
+                            <p className="text-base md:text-lg">Création de meubles d’exception alliant modernité et tradition.</p>
                         </div>
                     </motion.div>
                 </div>
 
                 {/* Service 3 - Rénovation et restauration */}
-                <div className="flex flex-col md:flex-row items-center">
+                <div className="flex flex-col md:flex-row items-center mx-4">
                     <motion.img
                         src={service3}
                         alt="Rénovation et restauration"
@@ -107,7 +107,7 @@ export const ServiceList: React.FC = () => {
                         variants={imageVariants}
                     />
                     <motion.div
-                        className="relative md:-ml-12 p-4 bg-accent shadow-lg rounded-lg flex items-center z-10 opacity-90"
+                        className="relative md:-ml-12 p-4 bg-accent shadow-lg rounded-lg flex items-center z-10 opacity-90 mx-4 my-4 md:my-0"
                         initial="hidden"
                         whileInView="visible"
                         viewport={{ once: true }}
@@ -115,14 +115,14 @@ export const ServiceList: React.FC = () => {
                     >
                         <img src={window} alt="Rénovation et restauration" className="h-10 w-10 mr-4" />
                         <div>
-                            <h3 className="text-2xl font-semibold text-primary">Rénovation et restauration</h3>
-                            <p className="text-lg">Un savoir-faire dédié à la remise en état d'œuvres anciennes.</p>
+                            <h3 className="text-xl text-center md:text-2xl font-semibold text-primary">Rénovation et restauration</h3>
+                            <p className="text-base md:text-lg">Un savoir-faire dédié à la remise en état d'œuvres anciennes.</p>
                         </div>
                     </motion.div>
                 </div>
 
                 {/* Service 4 - Scénographie */}
-                <div className="flex flex-col md:flex-row-reverse items-center">
+                <div className="flex flex-col md:flex-row-reverse items-center mx-4">
                     <motion.img
                         src={service4}
                         alt="Scénographie"
@@ -133,7 +133,7 @@ export const ServiceList: React.FC = () => {
                         variants={imageVariants}
                     />
                     <motion.div
-                        className="relative md:-mr-12 p-4 bg-accent shadow-lg rounded-lg flex items-center z-10 opacity-90"
+                        className="relative md:-mr-12 p-4 bg-accent shadow-lg rounded-lg flex items-center z-10 opacity-90 mx-4 my-4 md:my-0"
                         initial="hidden"
                         whileInView="visible"
                         viewport={{ once: true }}
@@ -141,8 +141,8 @@ export const ServiceList: React.FC = () => {
                     >
                         <img src={woodCarving} alt="Scénographie" className="h-10 w-10 mr-4" />
                         <div>
-                            <h3 className="text-2xl font-semibold text-primary">Scénographie</h3>
-                            <p className="text-lg">Réalisation de vos idées les plus extravagantes.</p>
+                            <h3 className="text-xl text-center md:text-2xl font-semibold text-primary">Scénographie</h3>
+                            <p className="text-base md:text-lg">Réalisation de vos idées les plus extravagantes.</p>
                         </div>
                     </motion.div>
                 </div>
