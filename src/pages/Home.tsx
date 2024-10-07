@@ -9,8 +9,8 @@ export const Home: React.FC = () => {
     return (
         <Layout>
             <VideoBackground />
-            <ProjectList />
             <ServiceList />
+            <ProjectList />
             <HistorySection />
         </Layout>
     );
