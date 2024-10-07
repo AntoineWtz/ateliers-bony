@@ -4,6 +4,7 @@ import { VideoBackground } from '../components/VideoBackground';
 import { ServiceList } from '../components/ServiceList';
 import { ProjectList } from '../components/ProjectList';
 import { HistorySection } from '../components/HistorySection';
+import { ContactForm } from '../components/ContactForm';
 
 export const Home: React.FC = () => {
     return (
@@ -12,6 +13,7 @@ export const Home: React.FC = () => {
             <ServiceList />
             <ProjectList />
             <HistorySection />
+            <ContactForm />
         </Layout>
     );
 };
