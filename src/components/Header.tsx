@@ -19,7 +19,7 @@ export const Header: React.FC = () => {
                 </Link>
                 <div className="hidden md:flex space-x-24">
                     <Link to="/services" className="text-xl hover:text-secondary">Services</Link>
-                    <Link to="/projects" className="text-xl hover:text-secondary">Projets</Link>
+                    <Link to="/projects" className="text-xl hover:text-secondary">Réalisations</Link>
                     <Link to="/history" className="text-xl hover:text-secondary">Notre Histoire</Link>
                     <Link to="/contact" className="text-xl hover:text-secondary">Contact</Link>
                 </div>
