@@ -19,7 +19,7 @@ export const VideoBackground: React.FC = () => {
             {/* Bloc contenant les deux titres */}
             <div className="absolute inset-0 flex flex-col items-center justify-center space-y-4">
                 <motion.h1
-                    className="text-white text-6xl font-serif"
+                    className="text-white text-6xl font-serif text-center"
                     initial={{ opacity: 0, y: -50 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8 }}
@@ -27,7 +27,7 @@ export const VideoBackground: React.FC = () => {
                     Ateliers Bony
                 </motion.h1>
                 <motion.h2
-                    className="text-secondary text-2xl font-bold"
+                    className="text-secondary text-2xl font-bold text-center"
                     initial={{ opacity: 0, y: -50 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8, delay: 0.2 }}
